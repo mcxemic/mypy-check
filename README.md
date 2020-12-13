@@ -18,10 +18,10 @@ None
 ## Example usage
 
 ```yaml
-uses: mcxemic/mypy-check@v1.0.0
+uses: mcxemic/mypy-check@1.0.0
 
 # or specify a path and args
-uses: mcxemic/mypy-check@v1.0.0
+uses: mcxemic/mypy-check@1.0.0
 with:
   path: '.'
   args: '--ignore-missing-imports --pretty --show-error-context'
